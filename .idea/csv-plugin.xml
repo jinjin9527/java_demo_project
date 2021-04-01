@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_11.java">
           <value>
             <Attribute>
@@ -39,6 +46,13 @@
           </value>
         </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_6.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_8.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
