@@ -15,11 +15,14 @@ public class Part1_4 {
         System.out.println(c2);
         System.out.println((int) c2);
 
+        String A = "a";
         // Unicodeには0〜65535の範囲のコードがあり、
         // 通常は「u0000」から「uFFFF」までの16進値で表されます
         // （プレフィックスはuはUnicodeを意味します）
         char c3 = '\u0061';
         System.out.println(c3);
+        System.out.println(A);
     }
 }
+
 

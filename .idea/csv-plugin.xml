@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\Hello.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part1\Part1.java">
           <value>
             <Attribute>
@@ -45,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_5.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_6.java">
           <value>
             <Attribute>
@@ -53,6 +67,34 @@
           </value>
         </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part1\Part1_8.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\homework\item1\Item1b.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\homework\item3\Test.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\homework\item4\Main.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part1\homework\item5\Sample.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
