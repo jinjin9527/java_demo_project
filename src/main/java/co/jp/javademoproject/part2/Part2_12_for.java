@@ -8,12 +8,12 @@ public class Part2_12_for {
 
         int[] intArray = {1, 2, 3, 4, 5};
         for (int i : intArray) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
-
+        System.out.println();
         String[] strArray = {"A", "B", "C", "D"};
         for (String i : strArray) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     }
 }

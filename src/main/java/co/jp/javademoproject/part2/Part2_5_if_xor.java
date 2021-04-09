@@ -18,11 +18,11 @@ public class Part2_5_if_xor {
         scanner.close();
     }
 
-    public static boolean xor(int a, int b) {
+    public static int xor(int a, int b) {
         if (a == 1 && b==1 || a==0 && b==0) {
-            return true;
+            return 0;
         } else {
-            return false;
+            return 1;
         }
     }
 }
