@@ -206,6 +206,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item1\Item1.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item2\Item2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
