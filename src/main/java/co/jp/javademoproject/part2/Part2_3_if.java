@@ -12,6 +12,7 @@ public class Part2_3_if {
         // 入力した数値をsに付与する
         int s = scanner.nextInt();
 
+        // if ... else 有层数限制 Http responsecode 400 500 200 100
         if (s == 1) {
             System.out.println("INPUT：" + s + " == 1");
         } else if (s == 2) {

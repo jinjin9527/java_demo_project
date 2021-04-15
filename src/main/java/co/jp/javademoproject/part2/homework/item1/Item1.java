@@ -4,6 +4,11 @@ public class Item1 {
     public static void main(String[] args) {
         int a = 10;
         int b = a++ + a + a-- - a-- + ++a;
+        // 执行 从上到下
+        // 赋值 或者是 表达式运算的时候 从左到右
+        // 取文件1 循环
+        // 取文件2
+        // 取文件3
         // 実行の順番：左から右へ
         // a++ は 「a」の値を参照してから、加算
         // ++a は 加算してから、「a」の値を参照する

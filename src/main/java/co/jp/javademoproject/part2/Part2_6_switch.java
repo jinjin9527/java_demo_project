@@ -20,7 +20,7 @@ public class Part2_6_switch {
             case "A":
                 System.out.println("case A");
                 System.out.println("excellent");
-                break;
+
             case "B":
                 System.out.println("case B");
             case "C":

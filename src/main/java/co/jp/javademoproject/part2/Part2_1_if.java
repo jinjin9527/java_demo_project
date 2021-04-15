@@ -14,6 +14,7 @@ public class Part2_1_if {
 
         // equals は 比較関数
         // 規則 if (boolean)
+        // hello
         if (s.equals("Hello")) {
             System.out.println("INPUT：" + s + " equals if condition 「Hello」");
         }

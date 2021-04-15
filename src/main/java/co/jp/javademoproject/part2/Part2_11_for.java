@@ -5,7 +5,7 @@ public class Part2_11_for {
         // 規則： for(初期化;条件「boolean」;更新){...}
         int total = 0;
 
-        for (int i = 1, j = 2; i <= 100; i++,j--) {
+        for (int i = 1, j = 2, k=3; i <= 100; i++,j--,k++) {
             total += i * j;
         }
         // ↓ はどうなる？

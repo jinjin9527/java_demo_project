@@ -17,7 +17,12 @@ public class Part2_5_if_xor {
         System.out.println("End");
         scanner.close();
     }
-
+    // XOR = (¬a ∧ b) ∨ (a ∧¬b)
+    // XOR   A   B   Result
+    //       T   T   F
+    //       T   F   T
+    //       F   T   T
+    //       F   F   F
     public static int xor(int a, int b) {
         if (a == 1 && b==1 || a==0 && b==0) {
             return 0;

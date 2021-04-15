@@ -15,6 +15,7 @@ public class Part2_5_switch {
         // 規則：
         // switch(X) { case Y1 : ... case Y2: ...  case YN: ... default}
         // X は byte int long short char or String
+        // 1  2 3   'c'  "123123Saafafa"
         // マッチしたcaseから実行する！！
         switch (s) {
             case 100:

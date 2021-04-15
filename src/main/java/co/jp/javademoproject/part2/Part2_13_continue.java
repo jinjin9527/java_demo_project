@@ -8,8 +8,10 @@ public class Part2_13_continue {
             if (i == 3) {
                 continue;
             }
-            System.out.println(i);
+            System.out.println("for index " + i);
         }
         System.out.println("END");
+
+        // break  直接跳出循环    continue是 直接进行下一次循环
     }
 }

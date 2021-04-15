@@ -12,6 +12,9 @@ public class Part2_12_for {
         }
         System.out.println();
         String[] strArray = {"A", "B", "C", "D"};
+        // 不仅仅是基础类型
+        // 对象类型也可以用增强for
+        // 增强for
         for (String i : strArray) {
             System.out.print(i + " ");
         }
