@@ -143,6 +143,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\Part2_1_if.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part2\Part2_2_if.java">
           <value>
             <Attribute>
@@ -214,6 +221,97 @@
           </value>
         </entry>
         <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item2\Item2.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item3\Item3.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item4\Item4.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part2\homework\item6\Item6.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\Part3_10_array.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\Part3_12_object.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\Part3_7_array.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\Part3_8_array.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\Part3_9_array.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\homework\Item3_6.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\objectintroduce\Car.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\objectintroduce\case2\Car.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\objectintroduce\case2\LandroverCar.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\main\java\co\jp\javademoproject\part3\objectintroduce\case2\PorscheCar.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />
