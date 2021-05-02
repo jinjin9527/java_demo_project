@@ -17,16 +17,34 @@ public class Part3_2_method {
 
     // 参数类型：参数像是一个占位符。当方法被调用时，传递值给参数。这个值被称为实参或变量。参
     //         数列表是指方法的参数类型、顺序和参数的个数。参数是可选的，方法可以不包含任何参数。
+    // 稍后说 ！ 传递值给参数 地址传递 0~7个 推荐不要超过5个
 
     // 4.方法的调用
+    // public static 修饰符
+    // 控制访问的修饰符 public private protected
+    // static
+    // final 制御修饰符
+    // class的时候讲
+    // void 不需要返回就是空  return;
+
     public static void main(String[] args) {
         int maxNum = max(3, 5);
         printResult("maxNum : " , maxNum);
         int addNum = max(3, 5);
         printResult("addNum : " , addNum);
+        return;
     }
 
     public static int max(int num1, int num2) {
+        int result;
+        if (num1 > num2)
+            result = num1;
+        else
+            result = num2;
+        return result;
+    }
+
+    public static int max(int num1, int num2, int num3) {
         int result;
         if (num1 > num2)
             result = num1;

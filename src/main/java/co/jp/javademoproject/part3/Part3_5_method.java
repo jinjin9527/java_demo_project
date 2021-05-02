@@ -11,12 +11,13 @@ public class Part3_5_method {
     // 问题相似的规模较小的问题来求解，递归策略只需少量的程序就可描述出解题过程所需要的多次重复计
     // 算，大大地减少了程序的代码量。递归的能力在于用有限的语句来定义对象的无限集合。
 
-    // 递归结构包括两个部分：
+    // 递归结构包括两个部分：for(;boolean;)  while(boolean)
     // 1. 递归头。解答：什么时候不调用自身方法。如果没有头，将陷入死循环。
     // 2. 递归体。解答：什么时候需要调用自身方法。
 
     public static void main(String[] args) {
 
+        // n!
         // 5! -> 5 * 4 * 3 * 2 * 1
         // f(5) ↓
         // 一回目：5 != 1  -> 5 * f(4)
@@ -28,13 +29,21 @@ public class Part3_5_method {
         // 四回目：2 != 1  -> 2 * f(1)
         // 5 * 4 * 3 * 2 * f(1)
         // 五回目：1 == 1  -> 1
+        int total = 1;
+        int n = 5;
+        while(n >=1) {
+            total = total * n;
+            n--;
+        }
+        System.out.println(total);
 
-        System.out.println(f(5));
+//        System.out.println(f(10));
     }
 
     public static int f(int n) {
         if (1 == n)
             return 1;
+        // 递归头部
         else
             return n * f(n - 1);
     }

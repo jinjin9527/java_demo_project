@@ -11,6 +11,7 @@ public class Part3_7_array {
         int[] a = {1, 2, 3};
         // 方式2：先声明 后 赋值
         int[] b = new int[2];
+
         b[0] = 1;
         b[1] = 2;
         // 声明后的默认值

@@ -9,8 +9,8 @@ public class Part3_4_method {
     // 一个方法中只能指定一个可变参数，它必须是方法的最后一个参数。任何普通的参数必须在它之前声明
     // 为什么可变参数必须在最后？
     public static void main(String[] args) {
-        int result1 = max(1, 2, 3, 4);
-        System.out.println(result1);
+//        int result1 = max(54, 2, 4, 200,-111);
+//        System.out.println(result1);
         int result2 = max();
         System.out.println(result2);
     }
@@ -18,9 +18,11 @@ public class Part3_4_method {
     public static int max(int ... nums) {
         System.out.println("max (int int int ...)  ");
 
-        if (nums == null) {
+        if (nums.length == 0) {
             return -1;
         }
+
+        System.out.println("length : " + nums.length);
         int result = 0;
         for(int i : nums) {
             if (i > result) {

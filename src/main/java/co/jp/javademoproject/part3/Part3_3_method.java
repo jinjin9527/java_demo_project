@@ -12,14 +12,7 @@ public class Part3_3_method {
     public static void main(String[] args) {
         int a_int = 1;
         int b_int = 2;
-        int c_int = 3;
-
-        long a_long = 1;
-        long b_long = 2;
-        long c_long = 3;
         System.out.println(max(a_int, b_int));
-        System.out.println(max(b_long, a_long));
-        System.out.println(max(a_int, c_int, b_int));
     }
 
     public static int max(int num1, int num2) {
@@ -32,32 +25,8 @@ public class Part3_3_method {
         return result;
     }
 
-    public static long max(long num1, long num2) {
-        System.out.println("max (long long)  ");
-        long result;
-        if (num1 > num2)
-            result = num1;
-        else
-            result = num2;
-        return result;
-    }
-
-    public static long max(long num1, int num2) {
-        System.out.println("max (long int)  ");
-        long result;
-        if (num1 > num2)
-            result = num1;
-        else
-            result = num2;
-        return result;
-    }
-
-    public static int  max(int num1, int num2, int num3) {
-        System.out.println("max (int int int)  ");
-        return Math.max(num1, Math.max(num2, num3));
-    }
-
-//    public static long max(int num1, int num2) {
+//    public static long max(long num1, int num2,long num1, int num2,long num1, int num2,long num1, int num2,long num1, int num2) {
+//        System.out.println("max (long int)  ");
 //        long result;
 //        if (num1 > num2)
 //            result = num1;
@@ -65,5 +34,11 @@ public class Part3_3_method {
 //            result = num2;
 //        return result;
 //    }
+
+    public static int max(int num1, int num2, int num3) {
+        System.out.println("max (int int int)  ");
+        return Math.max(num1, Math.max(num2, num3));
+    }
+
 
 }

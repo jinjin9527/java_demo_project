@@ -46,7 +46,8 @@ public class Part3_6_array {
         for (int i = 0; i < myList.length; i++) {
             total += myList[i];
         }
-        System.out.println("总和为： " + total);
+//        System.out.println("总和为： " + total);
+        System.out.println(myList[myList.length - 1]);
 
     }
 
