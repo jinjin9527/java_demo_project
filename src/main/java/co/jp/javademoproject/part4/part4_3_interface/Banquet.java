@@ -4,13 +4,22 @@ public class Banquet {
     public static void main(String[] args) {
 
         // 1.想吃中餐
-        SupplyFood supplyFood = new ChineseFood();
-        supplyFood.supplyFood();
+//        SupplyFood supplyFood1 = new ChineseFood();
+//        supplyFood1.supplyFood();
+//
+//        // 2.又想换成西餐
+//         SupplyFood supplyFood2 = new WesternFood();
+//         supplyFood2.supplyFood();
+//
+//         // 法餐
+//        SupplyFood supplyFood3 = new FrenchFood();
+//        supplyFood3.supplyFood();
+        // 代码简洁了  逻辑清晰了
+        SupplyFood[] supplyFoods = {new ChineseFood(), new WesternFood(), new FrenchFood()};
 
-        // 2.又想换成西餐
-        // SupplyFood supplyFood = new WesternFood();
-        // supplyFood.supplyFood();
-
+        for (SupplyFood sf : supplyFoods) {
+            sf.supplyFood();
+        }
 
         // 3.又想换成法料
         // 这时候需要写法料的Class

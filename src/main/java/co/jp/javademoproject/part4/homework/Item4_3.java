@@ -8,7 +8,7 @@ public class Item4_3 {
         array[0] = null;
         for (String str : array) {
             // nullをprintlnの場合、文字列"null"を出力する
-            System.out.println(str);
+            System.out.print(str);
         }
     }
 }

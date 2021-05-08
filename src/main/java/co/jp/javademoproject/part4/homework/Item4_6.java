@@ -12,6 +12,7 @@ public class Item4_6 {
         long sum = 0;
         for (int i = 1; i <= 20; i++) {
             long num = 1;
+            // 1*2*3
             for (int j = 1; j <= i; j++) {
                 num *= j;
             }
@@ -20,6 +21,7 @@ public class Item4_6 {
         System.out.println(sum);
     }
 
+    // 循环嵌套 最好 函数化  这样便于阅读
     public static void method2(){
         long sum = 0;
         for(int i = 1 ; i <= 20 ; i++){
