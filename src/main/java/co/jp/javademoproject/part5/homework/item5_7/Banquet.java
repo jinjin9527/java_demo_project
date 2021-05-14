@@ -13,6 +13,5 @@ public class Banquet {
             Object obj = supplyFoodClass.getConstructor().newInstance();
             ((SupplyFood) obj).supplyFood();
         }
-
     }
 }

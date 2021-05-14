@@ -8,11 +8,11 @@ public class Banquet {
 //        supplyFood1.supplyFood();
 //
 //        // 2.又想换成西餐
-//         SupplyFood supplyFood2 = new WesternFood();
+//         WesternFood supplyFood2 = new WesternFood();
 //         supplyFood2.supplyFood();
 //
 //         // 法餐
-//        SupplyFood supplyFood3 = new FrenchFood();
+        SupplyFood supplyFood3 = new FrenchFood();
 //        supplyFood3.supplyFood();
         // 代码简洁了  逻辑清晰了
         SupplyFood[] supplyFoods = {new ChineseFood(), new WesternFood(), new FrenchFood()};

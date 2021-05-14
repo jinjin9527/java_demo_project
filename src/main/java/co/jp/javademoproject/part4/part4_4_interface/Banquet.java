@@ -6,9 +6,10 @@ public class Banquet {
         // 可以用完全路径的类名来 实例化 接口 类型
         // 用Class.forName 获得了他的类型
         Class supplyFoodClass = Class.forName("co.jp.javademoproject.part4.part4_4_interface.WesternFood");
+        Object obj = supplyFoodClass.getConstructor().newInstance();
         // supplyFoodClass.getConstructor() 获得构造方法
         // 有构造方法获得实例 getConstructor().newInstance()
-        Object obj = supplyFoodClass.getConstructor().newInstance();
+
         // ChineseFood chineseFood = new ChineseFood();
         ((SupplyFood) obj).supplyFood();
 

@@ -10,12 +10,15 @@ public class Item52 {
         // 映射到自然世界里 可以说 跑车是一辆车 但反过来 车是一辆跑车就不太顺畅
         A a = new B();
         B b = (B) a;
+//        ((B)a).hello();
         b.hello();
     }
 }
 
-class A{}
-class B extends A{
+class A{
+
+}
+class B extends A {
     void hello() {
         System.out.println("hello");
     }

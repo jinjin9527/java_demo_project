@@ -1,6 +1,6 @@
 package co.jp.javademoproject.part5.homework.item5_5;
 
-public class Child extends Parent{
+public class Child extends Parent {
     String name;
     // 1.关于继承的解释
     // 虽然Child能够继承 Parent 的 getName方法
@@ -12,9 +12,13 @@ public class Child extends Parent{
     // 因此 就算给child的name赋值  通过child实例调用getName方法时 得到的是parent的name 他是null
 }
 
+// 父类跟子类有相同的 属性的时候 很容易让人分不清作用域
+
+// 重载 重写
+
 class Parent {
     String name;
     String getName(){
-        return this.name;
+        return name;
     }
 }

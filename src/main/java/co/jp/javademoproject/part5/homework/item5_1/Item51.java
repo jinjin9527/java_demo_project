@@ -11,5 +11,7 @@ public class Item51 {
 //                new D()
                 // 只有子类的实例 可以被声明为父类对象
         };
+        B b = new B();
+//        A a = new A();
     }
 }
