@@ -16,6 +16,10 @@ public class Item63 {
         } finally {
             val +=10;
         }
+
+        // unreachable 不可到达
+        System.out.println("123");
+
         return val;
     }
 }

@@ -2,6 +2,7 @@ package co.jp.javademoproject.part4.part4_5_interface;
 
 public class Banquet {
     public static void main(String[] args) throws Exception {
+        // util use認証を行う
         // 参数变更即可
         // 配置文件[spring]  @注解配置
         // 接口 和 虚基类
@@ -11,7 +12,9 @@ public class Banquet {
         for(String index : args) {
             Class supplyFoodClass = Class.forName(index);
             Object obj = supplyFoodClass.getConstructor().newInstance();
+            System.out.println("start supplyFood");
             ((SupplyFood) obj).supplyFood();
+            System.out.println("end supplyFood");
         }
 
         // 2.又想换成西餐
